@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HomeworkNew</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		#Container{
+			/*border: 5px solid tomato;*/
+		}
+			#Title{
+				margin: 0px;
+				background: #3D4F5B;
+				color: white;
+				text-align: center;
+				font: 36px TimesNewRoman;
+
+			}
+			#MainInformation{
+				display: flex;
+			}
+				#LeftColumne{
+					background: linear-gradient(to right, dimgray 0%, darkgrey 100%);
+				}
+					#Photo{
+						width: 240px;
+						height: 240px;
+						border-radius:300px;
+						margin: 5px;
+					}
+					#Name{
+						font: 32px/16px TimesNewRoman;
+						margin-left: 15px;
+						margin-bottom: 10px;
+						color: white;
+						text-align: justify;
+					}
+					#Hobby1{
+						text-decoration: none;
+						font: 14px TimesNewRoman;
+						background: #FFA500;
+						margin: 8px;
+						border-spacing: 8px;
+						width: 150px;
+					}
+					#Hobby2{
+						text-decoration: none;
+						font: 14px TimesNewRoman;
+						background: #0174DF;
+						margin: 8px;
+						border-spacing: 8px;
+						width: 75px;
+					}
+					#Hobby3{
+						text-decoration: none;
+						font: 14px TimesNewRoman;
+						background: #008000;
+						margin: 8px;
+						border-spacing: 8px;
+						width: 250px;
+					}
+					#Contacts{
+						color: white;
+						font: 14px TimesNewRoman;
+						margin: 15px 50px;
+						text-align: left;
+					}
+				#RightColumne{
+					width: 75%
+				}
+		.TextNone1{
+			border-bottom: 2px solid yellow;
+			font: 16px TimesNewRoman;
+			color: royalblue;
+			margin-bottom: 1px;
+			margin: 0px 5px;
+		}
+		.TextNone2{
+			border-bottom: 5px solid royalblue;
+			font: 22px TimesNewRoman;
+			color: #084B8A;
+			margin: 5px 15px;
+			text-align: left;
+			padding:5px;
+		}
+		.TextUnderline{
+			font: bold 18px TimesNewRoman;
+			color: white;
+			text-decoration: underline;
+			text-align: center;
+			margin: 14px 0px;
+		}
+		a{ color:  deepskyblue;
+		 }
+		a:visited{ color: gold;
+		 }
+		ul{
+			padding: 0px 5px;
+			margin: 5px;
+		}
+		.li{
+		 	list-style-type: none;
+		 	text-align: left;
+		}
+		.li:before{
+		 	content: "-";
+		}
+	</style>
+</head>
+<body>
+	<div id=Container>
+		<div>
+			<h2 id="Title">Resume</h2>
+		</div>
+		<div id="MainInformation">
+			<div id="LeftColumne">
+				<div><img id="Photo" src="https://media.licdn.com/dms/image/C4D03AQFbPJN-o5sFLA/profile-displayphoto-shrink_200_200/0?e=1531353600&v=beta&t=RE9ynTUnxtFpu08qbbfA2PIvC7c63Qgg2BGV2UjOmi8" alt="KorostelevMV">
+				</div>
+				<div class="TextNone1">
+					<p id="Name"> Korostelev</p>
+					<p id="Name"> Mihail</p>
+				</div>
+				<div class="TextUnderline">
+					Hobby:
+					<table id="Hobby1">
+						<tr>
+							<td>
+								Race Nation
+							</td>
+						</tr>
+					<table id="Hobby2">
+						<tr>
+							<td>
+								Strikeball
+							</td>
+						</tr>
+					</table>
+					<table id="Hobby3">
+						<tr>
+							<td>
+								Gym
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="TextUnderline">
+					Contacts:
+					<ul id="Contacts">
+						<li>
+							<a href="https://vk.com"target="_blank">
+								VK
+							</a>
+						</li>
+						<li>
+							<a href="https://ok.com"target="_blank">
+								OK
+							</a>
+						</li>
+						<li>
+							<a href="https://facebook.com" target="_blank">
+								Facebook
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="RightColumne">
+				<div class="TextNone2">
+					<table>
+						<tr>
+							<th>Birth Date
+							</th>
+						</tr>
+						<tr>
+							<td>May 16 1987
+							</td>
+						</tr>
+						<tr>
+							<th>Birth Place</th>
+						</tr>
+						<tr>
+							<td>Kyiv
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="TextNone2">
+					<table>
+						<tr>
+							<th>
+								Soft skills:
+							</th>
+						</tr>
+						<tr>
+							<td>
+								<ul>
+									<li class="li">
+										JIRA, Redmine, Microsoft TFS
+									</li>
+									<li class="li">
+										HTML/CSS, SQL
+									</li>
+									<li class="li">
+										business analysis, working with documentation and large amount of data
+									</li>
+									<li class="li">
+										XML/JSON
+									</li>
+									<li class="li">
+										Russian, Ukrainian - fluent, English -B1
+									</li>
+									<li class="li">
+										GitHub
+									</li>
+									<li class="li">
+										Scrum/Waterfall
+									</li>
+									<li class="li">
+										understanding of test documentation – test cases, test plans, test reports, bug reports, checklists etc.
+									</li>
+									<li class="li">
+										Familiar with SVN, GIT
+									</li>
+									<li class="li">
+										Selenium IDE
+									</li>
+								</ul>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="TextNone2">
+					<table>
+						<tr>
+							<th>
+								About:
+							</th>
+						</tr>
+						<tr>
+							<td>
+								<ul>
+									<li class="li">
+										willing to be a part of vibrant and leading organization
+									</li>
+									<li class="li">
+										I want to prove my ability to handle challenging tasks without of the box thinking.
+									</li class="li">
+									<li class="li">
+										having experience of manual testing and understanding of automated testing along with my big passion for quality assurance
+									</li>
+									<li class="li">
+										experienced in analysis of a large amount of data
+									</li>
+								</ul>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
